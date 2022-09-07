@@ -1,9 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-using GenericsIntro;
+﻿using GenericsIntro;
 
 
-MyList <string>isimler = new MyList<string>();
+MyList<string> isimler = new MyList<string>();
 isimler.Add("Gencer");
+
 
 
 
