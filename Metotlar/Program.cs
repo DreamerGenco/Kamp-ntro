@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Formats.Asn1;
 
 namespace Metotlar
 {
@@ -34,12 +35,14 @@ namespace Metotlar
 
             SepetManager SepetManager = new SepetManager();
             SepetManager.Ekle(urun1);
-            SepetManager.Ekle(urun2);
+            SepetManager.Ekle(urun2 );
 
-            SepetManager.Ekle2("Armut", "Yeşil Armut", 12,4);
+            SepetManager.Ekle2("Armut", "Yeşil Armut", 12, 4);
             SepetManager.Ekle2("Elma", "Yeşil Elma", 8,3);
             SepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 20,12);
+           
 
         }
+        
     }
 }
