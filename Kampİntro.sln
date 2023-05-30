@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{5F3E1903-630C-4072-A613-CDB97EADB177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{3E88E04B-AEC9-45A9-AF7C-BE217C032399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{3E88E04B-AEC9-45A9-AF7C-BE217C032399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{84295F32-C8FE-4328-9ED0-720824DB1A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{84295F32-C8FE-4328-9ED0-720824DB1A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metot_Hafta3_Odev1", "Metot_Hafta3_Odev1\Metot_Hafta3_Odev1.csproj", "{8B5248AA-C89F-4A0D-8BE2-11EAC112796B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{84295F32-C8FE-4328-9ED0-720824DB1A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84295F32-C8FE-4328-9ED0-720824DB1A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84295F32-C8FE-4328-9ED0-720824DB1A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5248AA-C89F-4A0D-8BE2-11EAC112796B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5248AA-C89F-4A0D-8BE2-11EAC112796B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5248AA-C89F-4A0D-8BE2-11EAC112796B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5248AA-C89F-4A0D-8BE2-11EAC112796B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

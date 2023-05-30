@@ -8,8 +8,7 @@ namespace Metotlar
         {
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
-            urun1.Fiyati = 15;
-            urun1.Aciklama = "Amasya Elması";
+             urun1.Aciklama = "Amasya Elması";
 
             Urun urun2 = new Urun();
             urun2.Adi = "Karpuz";
@@ -35,6 +34,7 @@ namespace Metotlar
             SepetManager SepetManager = new SepetManager();
             SepetManager.Ekle(urun1);
             SepetManager.Ekle(urun2);
+            
 
             SepetManager.Ekle2("Armut", "Yeşil Armut", 12,4);
             SepetManager.Ekle2("Elma", "Yeşil Elma", 8,3);
