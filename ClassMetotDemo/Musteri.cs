@@ -12,7 +12,7 @@ namespace ClassMetotDemo
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        public int Tc { get; set; }
+        public int Phone { get; set; }
 
         
     }
