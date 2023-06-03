@@ -14,6 +14,6 @@ namespace ClassMetotDemo
 
         public int Tc { get; set; }
 
-        public int Yas { get; set; }
+        
     }
 }
