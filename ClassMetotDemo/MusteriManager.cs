@@ -8,6 +8,7 @@ namespace ClassMetotDemo
 {
     internal class MusteriManager
     {
+
         public void Add()
         {
             Console.WriteLine("Musteri Eklendi");
