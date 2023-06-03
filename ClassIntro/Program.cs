@@ -24,7 +24,7 @@ namespace ClassIntro
             kurs3.IzlenmeOrani = 88;
 
             Kurs kurs4 = new Kurs();
-            kurs4.Egitmen = "Meral";
+            kurs4.Egitmen = "Meral";    
             kurs4.KursAdi = "aaaa";
             kurs4.IzlenmeOrani = 100;
 
@@ -34,9 +34,9 @@ namespace ClassIntro
 
             foreach  (Kurs kurs in kurslar)
             {
-                Console.WriteLine(kurs.Egitmen + " : "
-                    + " : " + kurs.IzlenmeOrani + 
-                     " : " + kurs.KursAdi);
+                Console.WriteLine(kurs.Egitmen +
+                     " : " + kurs.KursAdi + 
+                     " : " + kurs.IzlenmeOrani);
             }
 
 
@@ -45,6 +45,7 @@ namespace ClassIntro
 
     class Kurs
     {
+       
         public string KursAdi { get; set; }
         public string Egitmen { get; set; }
         public int IzlenmeOrani { get; set; }
