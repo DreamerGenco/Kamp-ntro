@@ -1,4 +1,4 @@
-﻿using MyDictionary;
+﻿namespace MyDictionary;
 
 DictionaryClass<int, string> numbers = new DictionaryClass<int, string>();
 numbers.Add(1, "One");
