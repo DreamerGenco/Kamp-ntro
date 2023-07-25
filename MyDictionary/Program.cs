@@ -1,12 +1,17 @@
-﻿namespace MyDictionary;
+﻿using System.Security.Cryptography;
 
-DictionaryClass<int, string> numbers = new DictionaryClass<int, string>();
-numbers.Add(1, "One");
-Console.WriteLine(numbers.KeyLength);
-Console.WriteLine(numbers.ValuesLength);
-numbers.Add(2, "Two");
-Console.WriteLine(numbers.KeyLength);
-Console.WriteLine(numbers.ValuesLength);
-numbers.Add(3, "Three");
-Console.WriteLine(numbers.KeyLength);
-Console.WriteLine(numbers.ValuesLength);
+namespace MyDictionary;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
+        myDictionary.Add(1, "a");
+        myDictionary.Add(2, "b");   
+        myDictionary.Add(3, "c");
+       myDictionary.PrintKeysAndValues();
+        Console.WriteLine("Count: " + myDictionary.Count);
+
+    }
+}
