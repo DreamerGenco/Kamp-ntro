@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler_2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{F3E0220E-0520-47F7-B5F0-15509A0CCA12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{B4747171-3F87-4057-B851-1F1BCF2DDF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{B4747171-3F87-4057-B851-1F1BCF2DDF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{B9711591-5670-46EC-BC21-D72818FF7DE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,10 +103,14 @@ Global
 		{F3E0220E-0520-47F7-B5F0-15509A0CCA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E0220E-0520-47F7-B5F0-15509A0CCA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E0220E-0520-47F7-B5F0-15509A0CCA12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4747171-3F87-4057-B851-1F1BCF2DDF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9711591-5670-46EC-BC21-D72818FF7DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9711591-5670-46EC-BC21-D72818FF7DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9711591-5670-46EC-BC21-D72818FF7DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9711591-5670-46EC-BC21-D72818FF7DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
