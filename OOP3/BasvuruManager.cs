@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
+    //Method injection
     internal class BasvuruManager
     {
-        public void BasvuruYap(IKrediManager krediManager)
+        public void BasvuruYap(IKrediManager krediler, List<ILoggerService>loggerServices)
         {
-            krediManager.Hesapla();
+           
+            krediler.Hesapla();
+            foreach (var loggerService in loggerServices)
+            {
+                loggerService.Log();
+            };
         }
         public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
         {

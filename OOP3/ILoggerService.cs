@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-     interface IKrediManager
+    internal interface ILoggerService
     {
-        void Hesapla();
+        void Log();
     }
 }
