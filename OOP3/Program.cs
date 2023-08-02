@@ -10,6 +10,19 @@ namespace OOP3
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
+            IKrediManager tasitKrediManager = new TasitKrediManager();
+            IKrediManager konutKrediManager = new KonutKrediManager();
+            
+            BasvuruManager basvuruManager = new BasvuruManager();
+            //basvuruManager.BasvuruYap(tasitKrediManager);
+
+            List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
+            basvuruManager.KrediOnbilgilendirmesiYap(krediler);
+
+
+=======
             IKrediManager konutKredi = new KonutKrediManager();
             IKrediManager tasitKredi = new TasitKrediManager();
             IKrediManager ihtiyacKredi = new IhtiyackrediManager();
@@ -23,6 +36,7 @@ namespace OOP3
             List<IKrediManager> krediler = new List<IKrediManager>() {tasitKredi, esnafKredi};
             basvuruManager.BasvuruYap(esnafKredi, loggers);
             // basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+>>>>>>> 4d9d74b9432094b8c9bc7afdae360738e2b4283c
             Console.ReadKey();
         }
     }
