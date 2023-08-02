@@ -1,26 +1,28 @@
-﻿namespace OOP3
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OOP3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
+            IKrediManager konutKredi = new KonutKrediManager();
             
 
-            IKrediManager tasitKrediManager = new TasitKrediManager();
-           
+            IKrediManager tasitKredi = new TasitKrediManager();
+              
 
-            IKrediManager konutKrediManager = new KonutKrediManager();
+            IKrediManager ihtiyacKredi = new IhtiyackrediManager();
+            
             BasvuruManager basvuruManager = new BasvuruManager();
-
-            basvuruManager.BasvuruYap(ihtiyacKrediManager);
-
-            List<IKrediManager> krediler = new List<IKrediManager>() { };
+            //basvuruManager.BasvuruYap(konutKredi);
+            List<IKrediManager> krediler = new List<IKrediManager>() {tasitKredi};
             basvuruManager.KrediOnBilgilendirmesiYap(krediler);
-
-
-            //Interfaceler de o ınterface'i implamente eden sınıfın referans numarasını tutabilir
-
+            Console.ReadKey();
         }
     }
 }

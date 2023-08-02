@@ -23,6 +23,7 @@
            CustomerManager customerManager = new CustomerManager();
             customerManager.Add(musteri1);
             customerManager.Add(musteri2);
+            Console.ReadLine();
 
 
            

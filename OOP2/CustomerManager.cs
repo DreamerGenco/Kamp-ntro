@@ -10,7 +10,7 @@ namespace OOP2
     {
         public void Add(Musteri musteri) 
         {
-
+            
         }
     }
 }
