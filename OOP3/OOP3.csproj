@@ -1,14 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
     <ProjectGuid>{EDC05FAD-2382-4885-9AF5-CF73A74DC91C}</ProjectGuid>
-=======
-    <ProjectGuid>{448821CC-D669-486F-B03D-6AAD50DAF0CA}</ProjectGuid>
->>>>>>> 4d9d74b9432094b8c9bc7afdae360738e2b4283c
     <OutputType>Exe</OutputType>
     <RootNamespace>OOP3</RootNamespace>
     <AssemblyName>OOP3</AssemblyName>
@@ -48,23 +43,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasvuruManager.cs" />
-<<<<<<< HEAD
-    <Compile Include="IhtiyacKrediManager.cs" />
-=======
     <Compile Include="DataBaseLoggerService.cs" />
     <Compile Include="EsnafKrediManager.cs" />
     <Compile Include="FileLoggerService.cs" />
-    <Compile Include="IhtiyackrediManager.cs" />
+    <Compile Include="IhtiyacKrediManager.cs" />
     <Compile Include="ILoggerService.cs" />
->>>>>>> 4d9d74b9432094b8c9bc7afdae360738e2b4283c
     <Compile Include="KonutKrediManager.cs" />
     <Compile Include="IKrediManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="SmsLoggerService.cs" />
->>>>>>> 4d9d74b9432094b8c9bc7afdae360738e2b4283c
     <Compile Include="TasitKrediManager.cs" />
   </ItemGroup>
   <ItemGroup>
