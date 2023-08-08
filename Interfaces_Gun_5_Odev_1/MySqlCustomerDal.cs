@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace Interfaces_Gun_5_Odev_1
 {
-    internal class SqlServerCustomerDal : ICustomerDal
+    internal class MySqlCustomerDal:ICustomerDal
     {
         public void Add()
         {
-            Console.WriteLine("Sql Server Added");
+            Console.WriteLine("MySql Added");
         }
 
         public void Delete()
         {
-            Console.WriteLine("Sql Server Deleted");
+            Console.WriteLine("MySql Deleted");
         }
 
         public void Update()
         {
-            Console.WriteLine("Sql Server Updated ");
+            Console.WriteLine("MySql Updated ");
         }
     }
+
 }
+

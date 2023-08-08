@@ -10,11 +10,24 @@ namespace Interfaces_Gun_5_Odev_1
     {
         static void Main(string[] args)
         {
-            PersonManager personManager = new PersonManager();
-            personManager.Add(new Student { Id = 1, Name = "Gencer", LastName = "SEVDİN", Departmant = "Bilgisayar Mühendisliği" });
+           // PersonManager personManager = new PersonManager();
+           // personManager.Add(new Student { Id = 1, Name = "Gencer", LastName = "SEVDİN", Departmant = "Bilgisayar Mühendisliği" });
 
-            CustomerManager customerManager = new CustomerManager();
-            customerManager.Add(new OracleCustomerDal());
+            ICustomerDal[] customerDals = new ICustomerDal[]
+            {
+                new SqlServerCustomerDal(),
+                new OracleCustomerDal(),
+                new MySqlCustomerDal()
+
+            };
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+
+
+           // CustomerManager customerManager = new CustomerManager();
+           // customerManager.Add(new OracleCustomerDal());
             Console.ReadKey(); 
         }
     }

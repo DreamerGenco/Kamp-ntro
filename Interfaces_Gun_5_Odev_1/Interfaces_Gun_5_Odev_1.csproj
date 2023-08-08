@@ -47,6 +47,7 @@
     <Compile Include="CustomerManager.cs" />
     <Compile Include="ICustomerDal.cs" />
     <Compile Include="IPerson.cs" />
+    <Compile Include="MySqlCustomerDal.cs" />
     <Compile Include="OracleCustomerDal.cs" />
     <Compile Include="PersonManager.cs" />
     <Compile Include="Program.cs" />
