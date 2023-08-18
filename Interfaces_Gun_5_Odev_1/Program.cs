@@ -26,9 +26,12 @@ namespace Interfaces_Gun_5_Odev_1
             }
 
 
-           // CustomerManager customerManager = new CustomerManager();
-           // customerManager.Add(new OracleCustomerDal());
-            Console.ReadKey(); 
+            // CustomerManager customerManager = new CustomerManager();
+            // customerManager.Add(new OracleCustomerDal());
+            Console.ReadKey();
+            Console.WriteLine("Test ");
+            Console.WriteLine("Test 2");
+
         }
     }
 }
