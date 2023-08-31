@@ -1,4 +1,4 @@
-﻿namespace AbstrackClasses_Gun_5_Odev_1
+﻿namespace InterfaceAbstractDemo
 {
     internal class Program
     {

@@ -4,10 +4,15 @@
     {
         static void Main(string[] args)
         {
-           IPersonManager customerManager = new CustomerManager();
+          IPersonManager customerManager = new CustomerManager();
             IPersonManager employeeManager = new EmployeeManager();
-            customerManager.Add();
-            employeeManager.Add();
+           
+          ProjectManager projectManager = new ProjectManager();
+            projectManager.Add(customerManager);
+            projectManager.Add(employeeManager);
+            projectManager.Add(new InternManager());
+
+     
 
 
         }

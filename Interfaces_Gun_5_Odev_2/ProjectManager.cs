@@ -8,13 +8,10 @@ namespace Interfaces_Gun_5_Odev_2
 {
     internal class ProjectManager
     {
-        public void Add(CustomerManager customerManager)
+      public void Add(IPersonManager personManager)
         {
+            personManager.Add();
            
-            customerManager.Add();
-        }
-        public void AddEmployee(EmployeeManager employeeManager)
-        {
 
         }
     }
