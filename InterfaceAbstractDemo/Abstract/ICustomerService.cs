@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Abstract
-{
+{   
     public interface ICustomerService
     {
-        void Save();
+        void Save(Customer customer); 
     }
 }
