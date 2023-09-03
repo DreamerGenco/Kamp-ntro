@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Concrete
 {
-    public class CustomerCheckManager:ICustomerCheckService
+    public class CustomerCheckManager:
     {
+        
 
     }
 }

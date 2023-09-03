@@ -1,4 +1,5 @@
-﻿using InterfaceAbstractDemo.Entities;
+﻿using InterfaceAbstractDemo.Adapters;
+using InterfaceAbstractDemo.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace InterfaceAbstractDemo.Abstract
 {
     public interface ICustomerCheckService
     {
-         public bool CheckIfRealPerson(Customer customer);
+        Task<bool> CheckIfRealPerson(Customer customer);
     }
 }
