@@ -8,13 +8,22 @@ namespace OOP3__BankCreditCalculator
 {
     internal class CreditRequestManager
     {
-        public void MakeApplication(ICreditManager creditManager)
+        //Method injection
+       
+        public void MakeApplication(ICreditManager creditManager, List<ILoggerService> loggerServices)
         {
             creditManager.Calculate();
+           foreach (ILoggerService loggerService in loggerServices)
+            {
+                loggerService.Log();
+            }
         }
-        public void CreditPreliminaryInformation()
+        public void CreditPreliminaryInformation(List<ICreditManager> krediler)
         {
-
+            foreach (var credit in krediler) 
+            {
+                credit.Calculate();
+            }
         }
     }
 }

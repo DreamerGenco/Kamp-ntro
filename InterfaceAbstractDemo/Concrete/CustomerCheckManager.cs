@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Concrete
 {
-    public class CustomerCheckManager:
+    public class CustomerCheckManager:ICustomerCheckService
     {
         
 
