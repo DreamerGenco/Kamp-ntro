@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceAbstractDemo.Abstract
-{   
-    public interface ICustomerService
+namespace InterfaceAbstractDemo.Abstact
+{
+    public interface ICustomerCheckService
     {
-        void Save(Customer customer); 
+         bool CheckIfRealPerson(Customer customer);
     }
 }

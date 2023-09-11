@@ -1,4 +1,4 @@
-﻿using InterfaceAbstractDemo.Abstract;
+﻿using InterfaceAbstractDemo.Abstact;
 using InterfaceAbstractDemo.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace InterfaceAbstractDemo.Concrete
 {
     public class StarbucksCustomerManager:BaseCustomerManager
     {
-         ICustomerCheckService _customerCheckService;
+        ICustomerCheckService _customerCheckService;
         public StarbucksCustomerManager(ICustomerCheckService customerCheckService)
         {
             _customerCheckService = customerCheckService;
@@ -26,9 +26,9 @@ namespace InterfaceAbstractDemo.Concrete
                 throw new Exception("Not a valid person");
 
             }
-            
-           
+
         }
+        
 
     }
 }

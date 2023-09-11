@@ -1,4 +1,4 @@
-﻿using InterfaceAbstractDemo.Abstract;
+﻿using InterfaceAbstractDemo.Abstact;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace InterfaceAbstractDemo.Concrete
 {
     public class NeroCustomerManager:BaseCustomerManager
     {
-
+       
     }
 }
