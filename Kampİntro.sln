@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3 _BankCreditCalculator", "OOP3 _BankCreditCalculator\OOP3 _BankCreditCalculator.csproj", "{308B1D1B-CE45-4515-B642-58DEB836EBC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{65B7AA93-FB36-4558-95BB-7518F945E239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{65B7AA93-FB36-4558-95BB-7518F945E239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagementSystem", "CustomerManagementSystem\CustomerManagementSystem.csproj", "{CADFD9BC-E017-4293-AD1F-7F4298A551E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +147,10 @@ Global
 		{65B7AA93-FB36-4558-95BB-7518F945E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B7AA93-FB36-4558-95BB-7518F945E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B7AA93-FB36-4558-95BB-7518F945E239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADFD9BC-E017-4293-AD1F-7F4298A551E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADFD9BC-E017-4293-AD1F-7F4298A551E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADFD9BC-E017-4293-AD1F-7F4298A551E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADFD9BC-E017-4293-AD1F-7F4298A551E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

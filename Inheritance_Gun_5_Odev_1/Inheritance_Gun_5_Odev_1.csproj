@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D2717D14-38F6-4B46-9454-E0B3DC6DB085}</ProjectGuid>
+    <ProjectGuid>{2DC591C3-5FA3-46D8-A250-8D85644D4D93}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Inheritance_Gun_5_Odev_1</RootNamespace>
     <AssemblyName>Inheritance_Gun_5_Odev_1</AssemblyName>
